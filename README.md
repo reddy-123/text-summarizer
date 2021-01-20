@@ -1,7 +1,7 @@
 # [Text Summarizer](https://en.wikipedia.org/wiki/Automatic_summarization)
 
 ## Description
-Text Summary tool - a project which was part of Artificial Intelligence course at BITS Pilani 
+Text Summary tool - project which was part of Artificial Intelligence course.
 
 ## Algorithms
 
