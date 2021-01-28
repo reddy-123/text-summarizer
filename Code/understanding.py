@@ -2,7 +2,6 @@
 
 # ALGORITHM NAME - Information Extraction
 
-#OWN
 import MontyLingua
 
 ml = MontyLingua.MontyLingua()
