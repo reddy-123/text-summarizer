@@ -16,6 +16,16 @@ text2 = f2.read()
 text3 = f3.read()
 
 
+# OWN - generates subject-verb-object-object tuples for each sentence
+tuples1 = ml.jist_predicates(text1)
+tuples2 = ml.jist_predicates(text2)
+tuples3 = ml.jist_predicates(text3)
+
+# OWN - flattens the above list of lists
+ftuples1 = [item for sublist in tuples1 for item in sublist]
+ftuples2 = [item for sublist in tuples2 for item in sublist]
+ftuples3 = [item for sublist in tuples3 for item in sublist]
+
 # OWN
 # s-v-o-o tuple for a sentence is of form:
 # ' "subject" "verb" "object" "object" '
